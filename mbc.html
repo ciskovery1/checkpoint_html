@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#travail">Travail</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Je suis un développeur web passionné par la création de sites internet. Sur cette page, vous trouverez des exemples de mon travail ainsi que mon CV.</p>
+      </section>
+
+      <section id="a-propos">
+        <h2>À propos</h2>
+        <p>Je m'appelle John Doe et je suis un développeur web avec plus de 5 ans d'expérience. J'ai travaillé avec de nombreuses technologies, notamment HTML, CSS, JavaScript et PHP. Je suis passionné par la création de sites internet et j'aime travailler sur des projets innovants et intéressants.</p>
+      </section>
+
+      <section id="travail">
+        <h2>Travail</h2>
+        <ul>
+          <li>Site web de commerce électronique - <a href="#">voir le projet</a></li>
+          <li>Site web d'une entreprise de voyage - <a href="#">voir le projet</a></li>
+          <li>Site web d'une école de musique - <a href="#">voir le projet</a></li>
+        </ul>
+      </section>
+
+      <section id="cv">
+        <h2>CV</h2>
+        <form>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required><br>
+
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required><br>
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="cv">Télécharger CV :</label>
+          <input type="file" id="cv" name="cv" accept="application/pdf"><br>
+
+          <input type="submit" value="Envoyer">
+        </form>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required><br>
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required><br>
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea><br>
+
+          <input type="submit" value="Envoyer">
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2021 John Doe</p>
+    </footer>
+
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+  </body>
+</html>
